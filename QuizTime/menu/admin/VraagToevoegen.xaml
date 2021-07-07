@@ -1,0 +1,20 @@
+﻿<Window x:Class="QuizTime.menu.admin.VraagToevoegen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuizTime.menu.admin"
+        mc:Ignorable="d"
+        Title="VraagToevoegen" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="que" HorizontalAlignment="Center" Margin="0,129,0,0" Text="Vraag" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="afb" HorizontalAlignment="Center" Margin="0,152,0,0" Text="Afbeelding path" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="ant" HorizontalAlignment="Center" Margin="0,175,0,0" Text="Antwoord" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="er1" HorizontalAlignment="Center" Margin="0,193,0,0" Text="Fout1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="er2" HorizontalAlignment="Center" Margin="0,216,0,0" Text="Fout2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="er3" HorizontalAlignment="Center" Margin="0,239,0,0" Text="Fout3" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Toevoegen" HorizontalAlignment="Center" Margin="0,262,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FF00FF34"/>
+        <TextBox Name="qnm" HorizontalAlignment="Center" Margin="0,106,0,0" Text="QuizNaam" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="QuizTime.menu.admin.AdminHomeMetVragenlijst"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuizTime.menu.admin"
+        mc:Ignorable="d"
+        Title="AdminHomeMetVragenlijst" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Button Content="Vraag Toevoegen" Click="Button_Click" Background="#FF00FF34"/>
+            <Button Content="Quiz Toevoegen" Click="Button_Click" Background="#FF00FF34"/>
+            <Button Content="Vraag Verwijderen" Click="Button_Click" Background="#FF00FF34"/>
+            <Button Content="Quiz Verwijderen" Click="Button_Click" Background="#FF00FF34"/>
+            <DataGrid Name="vragen" Height="350"/>
+        </StackPanel>
+        <Button Content="Terug naar menu" HorizontalAlignment="Center" Margin="0,404,0,0" VerticalAlignment="Top" Background="#FF00FF34" Click="Button_Click_1"/>
+    </Grid>
+</Window>
